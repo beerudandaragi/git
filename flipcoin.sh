@@ -1,9 +1,8 @@
 #!/bin/bash -x
-
-coin=1;
+value=1;
 
 randomcheck=$((RANDOM%2));
-if [ $coin -eq $randomcheck ];
+if [ $value -eq $randomcheck ];
 then 
 	echo "head"
 else 
